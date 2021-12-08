@@ -65,7 +65,7 @@ while True:
         webbrowser.open('stackoverflow.com')
 
     elif 'play music' in command:
-        music_dir = r'C:\Users\Xalem\Downloads\Music'
+        music_dir = r'path\Music'
         music = os.listdir(music_dir)
         os.startfile(os.path.join(music_dir, music[0]))
 
@@ -75,7 +75,7 @@ while True:
         speak(f'The time is {Time}')
 
     elif 'open terminal' in command:
-        path = r'C:\Users\Xalem\AppData\Local\Microsoft\WindowsApps\wt.exe'
+        path = r'path\wt.exe'
         os.startfile(path)
 
     elif 'can you hear me' in command:
